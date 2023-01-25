@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700;900&display=swap');
+
+*{
+    background-color: #f2f2f2;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+p, li{
+    line-height: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+a:visited {
+    color: none;
+}
+
+hr{
+    margin: 50px 0;
+    width: 85%;
+    margin: 100px auto 100px auto;
+}
+
+
+/* ====NAV PRINCIPAL====*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 50px 0 0 0;
+    width: 85%;
+}
+
+nav ul li{
+    display: flex;
+    gap: 100px;
+}
+
+/* ====NAV PRINCIPAL====*/
+
+/* ====HEADER====*/
+
+.inicio{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 85%;
+    align-items: center;
+    padding: 50px 0 0 0;
+}
+
+.inicio h1{
+    display: flex;
+    flex-direction: column;
+}
+
+.inicio div{
+    width: 40%;
+}
+.inicio img{
+    float: right;
+    width: 800px;
+}
+
+h1{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+h1 strong{
+   font-family: "Coiny";
+   font-weight: 400;
+   font-size: 7rem;
+}
+
+.inicio h2{
+    font-size: 1.625rem;
+}
+
+.inicio span{
+    background-color: #fcee21;
+}
+
+.inicio p{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    padding: 100px 0 0 0;
+}
+
+/* ====HEADER====*/
+
+/* ====SECTION DESCRIPCION==== */
+
+.descripcion{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 50px 0 0 0;
+    width: 85%;
+}
+
+.descripcion article{
+    width: 43%;
+}
+
+.descripcion article:last-child h3{
+    text-transform: uppercase;
+}
+
+.descripcion h3{
+    font-size: 2.15rem;
+    padding: 50px 0 0 0;
+}
+
+.descripcion p{
+    font-size: 1.75rem;
+    padding: 15px 0 0 0;
+}
+
+/* ====SECTION DESCRIPCION==== */
+
+/* ====SECTION SERVICIOS====*/
+
+.servicios{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    padding: 50px 0 0 0;
+    width: 85%;
+}
+
+.servicios img{
+    width: 600px;
+}
+
+.servicios div:last-of-type{
+    width: 45%;
+}
+
+.servicios ol{
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.servicios h4{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    padding:  0 0 30px 0;
+}
+
+.servicios ol li{
+    font-size: 2rem;
+    padding: 20px 0 0 0;
+    
+}
+
+/* ====SECTION SERVICIOS====*/
+
+/* ====SECTION CONTACTO==== */
+
+.contacto{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    padding: 50px 0 0 0;
+    width: 85%;
+}
+
+.contacto form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 30%;
+}
+
+.contacto h4{
+    font-size: 4.25rem;
+}
+
+.contacto h4 span{
+    color: white;
+    background-color: black;
+    line-height: 6rem;
+}
+
+.contacto p{
+    font-size: 2.75rem;
+}
+
+.contacto div{
+    width: 60%;
+}
+
+.contacto div:first-of-type{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.contacto label{
+    font-size: 1.5rem;
+}
+
+.contacto label::after{
+    content: " *";
+    color: red;
+}
+
+.contacto input:not(:last-child), .contacto textarea{
+    margin: 0 0 2rem 0;
+}
+
+.contacto input:not(:last-child){
+    height: 2rem;
+}
+.contacto textarea{
+    height: 8rem;
+    resize: vertical;
+    min-height: 8rem;
+}
+
+#botones {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#botones button, #botones input{
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 1.5rem;
+    
+}
+
+/* ====SECTION CONTACTO==== */
+
+
+/* ====SECTION REDES==== */
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    padding: 10rem 0 0 0;
+    width: 85%;
+}
+
+.redes p{
+    width: 75px;
+}
+.redes img{
+    width: 8rem;
+}
+
+.redes p{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 2rem;
+    color: #808080;
+}
+
+/* ====SECTION REDES==== */
+
+
+/* ====FOOTER==== */
+
+footer div{
+    display: flex;
+    gap: 100px;
+    width: 85%;
+    margin: auto;
+    padding: 2.5rem 0;
+    align-items: center;
+    background-color: inherit;
+}
+
+.footer{
+    background-color: #fcee21;
+    margin: 5rem 0 0 0;
+}
+
+.footer h2, .footer a{
+    background-color: inherit;
+    font-weight: 400;
+}
+
+.footer h2{
+    font-family: "Coiny";
+    font-size: 2.75rem;
+}
+
+.footer a{
+    font-family: "Roboto";
+    font-size: 1.75rem;
+    vertical-align: middle;
+    color: black;
+}
+
+/* ====FOOTER==== */
+
+
+/*====FUENTES==== */
+
+nav{
+    font-family: "Coiny";
+    font-weight: 400;
+}
+
+nav a{
+    font-size: 3.5rem;
+    color: black;
+}
+
+nav ul li a{
+    font-size: 2rem;
+    color: grey;
+}
+
+p, li, h2{
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+h4, strong, .contacto p, .contacto form label{
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+h3{
+    font-family: "Roboto";
+    font-weight: 900;
+}
+
+span{
+    background-color: #fcee21;
+}
+
+
+/*====FUENTES==== */
+
+
+@media (max-width: 1366px){
+
+    .inicio div:first-of-type{
+        z-index: 1;
+    }
+
+    .inicio img{
+        width: 600px;
+    }
+
+}
+
+
+@media (max-width: 1280px){
+
+    .inicio div:first-of-type{
+        z-index: 1;
+    }
+    .inicio h1{
+        font-size: 2rem;
+    }
+
+    .inicio img{
+        position: relative;
+        width: 600px;
+    }
+    
+    .servicios img{
+        width: 500px;
+    }
+
+    #servicios h4{
+        font-size: 3rem;
+        padding: 0;
+    }
+
+    #servicios li{
+        font-size: 1.5rem;
+    }
+}
